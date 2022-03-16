@@ -1,4 +1,5 @@
-const Rating = (props) => {
+// perbedaan funtion dan const ?
+function Rating(props) {
   return (
     <div className="py-1">
       <svg
@@ -18,6 +19,6 @@ const Rating = (props) => {
       </svg>
     </div>
   );
-};
+}
 
 export default Rating;
